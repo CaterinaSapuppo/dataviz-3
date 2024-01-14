@@ -24,7 +24,8 @@ def plot_data(country, df_melted):
     return fig
 
 # Main function
-
+def main():
+    st.title(" ")
     
     # Carica i dati
     file_path = 'dati electricity from oil sources.xlsx'  # Aggiorna con il nome effettivo del tuo file
