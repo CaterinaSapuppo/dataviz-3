@@ -28,7 +28,7 @@ def main():
     st.title("Data Visualization App")
     
     # Carica i dati
-    file_path = 'path/to/your/file.xls'  # Aggiorna con il percorso del tuo file
+    file_path = 'API_EG.ELC.PETR.ZS_DS2_en_excel_v2_6299411.xls'  # Aggiorna con il nome effettivo del tuo file
     df_melted = load_data(file_path)
     countries_with_data = df_melted['Country Name'].unique()
 
